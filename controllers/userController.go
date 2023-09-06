@@ -1,0 +1,34 @@
+package controllers
+
+import "github.com/gin-gonic/gin"
+
+func GetUser() gin.HandlerFunc {
+	return func(ctx *gin.Context) {
+
+	}
+}
+
+func GetUsers() gin.HandlerFunc {
+	return func(ctx *gin.Context) {
+
+	}
+}
+
+func Signup() gin.HandlerFunc {
+	return func(ctx *gin.Context) {
+
+	}
+}
+func Login() gin.HandlerFunc {
+	return func(ctx *gin.Context) {
+
+	}
+}
+
+func HashPassword(password string) string {
+
+}
+
+func VerifyPassword(userPassword string, providePassword string) (bool, string) {
+
+}
